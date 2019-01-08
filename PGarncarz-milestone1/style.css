@@ -1,0 +1,177 @@
+body {
+    background-color: #ddd;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title {
+    float: left;
+    text-align: center;
+    position: relative;
+    left: 150px;
+}
+
+.photo {
+    display: inline-block;
+    float: right;
+    position: relative;
+    right: 150px;
+}
+
+.contact {
+    display: inline-block;
+    float: right;
+    position: relative;
+    right: 150px;
+}
+
+.header {
+    border-bottom: 2px solid #666;
+}
+
+.header > div:last-child {
+    clear: both;
+}
+
+img {
+    height: 150px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+img:hover {
+    src: url("img/iron.jpg");
+}
+
+h1, h5 {
+    font-style: italic;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+span {
+    color: #ad0000;
+}
+
+span > a {
+    color: #ad0000;
+}
+
+button {
+    width: 400px;
+    border: 1px solid black;
+    background-color: #777;
+    color: #fff;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid black;
+    background-color: #ddd;
+}
+
+h2 {
+    display: inline-block;
+    float: left;
+    width: 200px;
+}
+
+.education ul {
+    display: inline-block;
+}
+
+.education {
+    border-bottom: 2px solid #666;
+}
+
+.education > div:last-child {
+    clear: both;
+}
+
+.skills {
+    border-bottom: 2px solid #666;
+}
+
+.skills > div:last-child {
+    clear: both;
+}
+
+.box {
+    display: inline-block;
+    float: left;
+    margin: 10px 0;
+    width: 150px;
+    padding: 10px;
+    border-right: 2px solid #666;
+}
+
+.box > p {
+    font-size: 0.8rem;
+}
+
+.box:nth-child(6) {
+    border-right: 0;
+}
+
+.tech {
+    margin: 10px 0;
+    border-bottom: 2px solid #666;
+}
+
+.tech > div {
+    clear: both;
+}
+
+table {
+    float: left;
+    clear: right;
+    text-align: left;
+    width: 80%;
+    font-size: 0.8rem;
+    border-collapse: collapse;
+}
+
+th {
+    color: #777;
+    font-style: italic;
+}
+
+tr {
+    border-bottom: 1px solid red;
+}
+
+tr:last-child {
+    border: 0;
+}
+
+.exp ul {
+    width: 80%;
+    float: right;
+    position: relative;
+    bottom: 100px;
+    right: 35px;
+}
+
+.exp li {
+    list-style-type: none;
+}
+
+li > p {
+    font-size: 0.8rem;
+}
+
+.exp span {
+    float: right;
+    color: #000;
+}
